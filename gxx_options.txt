@@ -1,0 +1,12 @@
+// Some suggested compiler flags for g++
+-pedantic -> completely follow the norm and be sure it compiles on every platform
+-Wconversion -> when automatic conversions take place
+-Wpointer-arith -> when pointer arithmetic is done (rare in c++)
+-Wfloat-equal -> don't compare floating point numbers directly !
+-Wefc++ -> use the Scott M Efficient C++ guidelines
+
+Good list:
+-pedantic -Wall -Wextra -Wold-style-cast -Woverloaded-virtual -Wfloat-equal
+-Wwrite-strings -Wpointer-arith -Wcast-qual -Wcast-align -Wconversion
+-Wshadow -Weffc++ -Wredundant-decls -Wdouble-promotion -Winit-self -Wswitch-default
+-Wswitch-enum -Wundef -Wlogical-op -Winline -O2 -s
